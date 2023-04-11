@@ -35,6 +35,16 @@ Select the project:
 
 `cd <NEW_PROJECT_NAME>`
 
+Initialize:
+
+```
+npx wrangler init
+✔ Would you like to create wrangler.toml? yes
+✨ Created wrangler.toml
+✔ Would you like to use TypeScript? … no
+✔ Would you like to create a Worker at src/index.js? › None
+```
+
 Add your environment variables:
 
 ```
@@ -44,6 +54,6 @@ npx wrangler secret put CLOUDFLARE_API_TOKEN
 
 # Publish:
 
-`npx wrangler publish`
+`npx wrangler publish index.js`
 
 That's it and you're done! Go checkout the demo I have here: https://openvideo.net/tus
