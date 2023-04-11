@@ -1,5 +1,5 @@
 # Cloudflare-Stream-TUS-Creator-Upload
-A guide on how to implement advanced upload flow using tus, for large videos from the examples given in Cloudflare's documentation.
+A guide on how to implement advanced upload using tus, according to Cloudflare's documentation.
 
 # About
 
