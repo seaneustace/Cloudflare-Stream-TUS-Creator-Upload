@@ -34,8 +34,8 @@ Select the project:
 Add your environment variables:
 
 ```
-npx wrangler secret put ACCOUNT_ID_DEMO
-npx wrangler secret put TOKEN_DEMO
+npx wrangler secret put CLOUDFLARE_ACCOUNT_ID
+npx wrangler secret put CLOUDFLARE_API_TOKEN
 ```
 
 Publish:
