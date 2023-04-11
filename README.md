@@ -8,6 +8,7 @@ To demonstrate how to implement advanced upload flow using tus, for large videos
 https://developers.cloudflare.com/stream/uploading-videos/direct-creator-uploads/
 
 > Step 1: Create your own API endpoint that returns an upload URL
+
 > Step 2: Use this API endpoint with your tus client
 
 # Prerequisites:
