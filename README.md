@@ -38,7 +38,7 @@ npx wrangler secret put CLOUDFLARE_ACCOUNT_ID
 npx wrangler secret put CLOUDFLARE_API_TOKEN
 ```
 
-Publish:
+# Publish:
 
 `npx wrangler publish`
 
