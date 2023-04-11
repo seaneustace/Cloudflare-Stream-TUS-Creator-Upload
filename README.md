@@ -13,7 +13,7 @@ Cloudflare provides some example an how this may look, I will show how the follo
 
 https://developers.cloudflare.com/stream/uploading-videos/direct-creator-uploads/
 
-These setps can be combined into a single worker that you can deploy to your account.
+These steps can be combined into a single worker that you can deploy to your account.
 
 # Prerequisites:
 
