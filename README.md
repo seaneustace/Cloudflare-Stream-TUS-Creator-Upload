@@ -1,15 +1,19 @@
 # Cloudflare-Stream-TUS-Creator-Upload
+A guide on how to implement advanced upload flow using tus, for large videos from the examples given in Cloudflare's documentation.
+
+# About
+
 TUS is a protocol that uses resumable uploads. Cloudflare Stream uses TUS for video uploads over 200MB.
 
-# Purpose
-
-To demonstrate how to implement advanced upload flow using tus, for large videos from the examples given in Cloudflare's documentation.
-
-https://developers.cloudflare.com/stream/uploading-videos/direct-creator-uploads/
+Cloudflare provides some example an how this may look, I will show how the following steps might look inside a worker:
 
 > Step 1: Create your own API endpoint that returns an upload URL
 
 > Step 2: Use this API endpoint with your tus client
+
+https://developers.cloudflare.com/stream/uploading-videos/direct-creator-uploads/
+
+These setps can be combined into a single worker that you can deploy to your account.
 
 # Prerequisites:
 
